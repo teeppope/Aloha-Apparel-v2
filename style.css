@@ -1,0 +1,455 @@
+/************************* FONTS ********************************/
+
+/* Playfair Display */
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('assets/fonts/playfairdisplay/playfairdisplay-bold-webfont.eot');
+    src: url('assets/fonts/playfairdisplay/playfairdisplay-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('assets/fonts/playfairdisplay/playfairdisplay-bold-webfont.woff2') format('woff2'),
+         url('assets/fonts/playfairdisplay/playfairdisplay-bold-webfont.woff') format('woff'),
+         url('assets/fonts/playfairdisplay/playfairdisplay-bold-webfont.ttf') format('truetype'),
+         url('assets/fonts/playfairdisplay/playfairdisplay-bold-webfont.svg#playfair_displaybold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('assets/fonts/playfairdisplay/playfairdisplay-bolditalic-webfont.eot');
+    src: url('assets/fonts/playfairdisplay/playfairdisplay-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('assets/fonts/playfairdisplay/playfairdisplay-bolditalic-webfont.woff2') format('woff2'),
+         url('assets/fonts/playfairdisplay/playfairdisplay-bolditalic-webfont.woff') format('woff'),
+         url('assets/fonts/playfairdisplay/playfairdisplay-bolditalic-webfont.ttf') format('truetype'),
+         url('assets/fonts/playfairdisplay/playfairdisplay-bolditalic-webfont.svg#playfair_displaybold_italic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('assets/fonts/playfairdisplay/playfairdisplay-italic-webfont.eot');
+    src: url('assets/fonts/playfairdisplay/playfairdisplay-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('assets/fonts/playfairdisplay/playfairdisplay-italic-webfont.woff2') format('woff2'),
+         url('assets/fonts/playfairdisplay/playfairdisplay-italic-webfont.woff') format('woff'),
+         url('assets/fonts/playfairdisplay/playfairdisplay-italic-webfont.ttf') format('truetype'),
+         url('assets/fonts/playfairdisplay/playfairdisplay-italic-webfont.svg#playfair_displayitalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('assets/fonts/playfairdisplay/playfairdisplay-regular-webfont.eot');
+    src: url('assets/fonts/playfairdisplay/playfairdisplay-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('assets/fonts/playfairdisplay/playfairdisplay-regular-webfont.woff2') format('woff2'),
+         url('assets/fonts/playfairdisplay/playfairdisplay-regular-webfont.woff') format('woff'),
+         url('assets/fonts/playfairdisplay/playfairdisplay-regular-webfont.ttf') format('truetype'),
+         url('assets/fonts/playfairdisplay/playfairdisplay-regular-webfont.svg#playfair_displayregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Raleway */
+@font-face {
+    font-family: 'Raleway';
+    src: url('assets/fonts/raleway/raleway-light-webfont.eot');
+    src: url('assets/fonts/raleway/raleway-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('assets/fonts/raleway/raleway-light-webfont.woff2') format('woff2'),
+         url('assets/fonts/raleway/raleway-light-webfont.woff') format('woff'),
+         url('assets/fonts/raleway/raleway-light-webfont.ttf') format('truetype'),
+         url('assets/fonts/raleway/raleway-light-webfont.svg#ralewaylight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'Raleway';
+    src: url('assets/fonts/raleway/raleway-lightitalic-webfont.eot');
+    src: url('assets/fonts/raleway/raleway-lightitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('assets/fonts/raleway/raleway-lightitalic-webfont.woff2') format('woff2'),
+         url('assets/fonts/raleway/raleway-lightitalic-webfont.woff') format('woff'),
+         url('assets/fonts/raleway/raleway-lightitalic-webfont.ttf') format('truetype'),
+         url('assets/fonts/raleway/raleway-lightitalic-webfont.svg#ralewaylight_italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+
+}
+@font-face {
+    font-family: 'Raleway';
+    src: url('assets/fonts/raleway/raleway-medium-webfont.eot');
+    src: url('assets/fonts/raleway/raleway-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('assets/fonts/raleway/raleway-medium-webfont.woff2') format('woff2'),
+         url('assets/fonts/raleway/raleway-medium-webfont.woff') format('woff'),
+         url('assets/fonts/raleway/raleway-medium-webfont.ttf') format('truetype'),
+         url('assets/fonts/raleway/raleway-medium-webfont.svg#ralewaymedium') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Raleway';
+    src: url('assets/fonts/raleway/raleway-mediumitalic-webfont.eot');
+    src: url('assets/fonts/raleway/raleway-mediumitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('assets/fonts/raleway/raleway-mediumitalic-webfont.woff2') format('woff2'),
+         url('assets/fonts/raleway/raleway-mediumitalic-webfont.woff') format('woff'),
+         url('assets/fonts/raleway/raleway-mediumitalic-webfont.ttf') format('truetype'),
+         url('assets/fonts/raleway/raleway-mediumitalic-webfont.svg#ralewaymedium_italic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+
+/********************** ELEMENTS *********************/
+* {
+	box-sizing: border-box;
+}
+html{
+	color: #2d2d2d;
+	font-family: Raleway, Helvetica, sans-serif; 
+	font-size: 14px;
+}
+header{
+	padding: 0.657rem 1.5rem;
+}
+section,
+footer{
+    padding: 6rem 0; /* This padding is used to provide consistent vertical alignment in sections & footer*/
+    text-align: center;
+}
+h1, h2, h3{
+	font-family: Playfair Display, serif;
+	font-size: 2.5rem;
+    padding-bottom: 2rem;
+}
+h2{
+	font-style: italic;
+}
+h3{
+    font-size: 1.5rem;
+    padding: 1rem;
+    color: #e2574c;
+}
+.heavy{
+    font-style: normal;
+    font-weight: bold;
+}
+p{
+    font-size: 1rem;
+    line-height: 1.5;
+}
+img {
+    width: 100%; 
+    height: auto;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+	color: #e2574c;
+}
+li{
+	list-style: none;
+    color:  #969696;
+}
+i {
+    min-width: 2.2rem;
+}
+
+
+
+/************************* LAYOUT ***********************/
+.container{
+    display: flex;
+    flex-flow: column;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.banner,
+.styles,
+.signup{
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+
+
+ /************************ CONTENT ***********************/
+
+/*Header Content Styles*/
+.hdr{
+    /*FLEX Container to .logo .nav*/
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: space-between;
+}
+
+.logo{
+    width: 160px;
+    height: auto;
+}
+.nav{
+    /* FLEX Item STYLES*/
+    flex-basis: 100%;
+    /*Regular Item Styles*/
+    margin-top: 1.5rem;
+    padding: 1.5rem 0;/* <--- SEE IF I CAN GET SPACING TO HAPPEN WITHOUT THIS PADDING*/
+    border-top: 2px solid #d7d7d7;
+}
+.hdr-nav{  
+    /* FLEX CONTAINER styles: used to style hdr-nav-items */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.hdr-nav-item{
+    font-size: 1rem;
+    /*Flex Item Styles*/
+}
+.hdr-nav-item a{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #e2574c;
+}
+.hdr-nav-item a:hover{
+    color: #b64036;
+}
+.cart-btn{
+    cursor: pointer;
+    width: 60px;
+}
+
+
+/*Banner Content Styles*/
+.banner {
+	width: 100%;
+	background:
+		linear-gradient(0deg, rgba(0,0,0,.3), rgba(0,0,0,.4)),
+		url(assets/images/banner-girl.png) no-repeat center 3.286rem,
+		url(assets/images/flower-bkgd.jpg) repeat-x center top; 
+    background-size: cover, 250px 615px, contain;
+	text-align: center;
+	color: #fff;
+    padding: 10rem 1rem;
+}
+.banner p {
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-shadow: 1px 1px 3px grey;
+    padding-bottom: 1.5rem;
+}
+.banner h1 {
+    text-shadow: 1px 1px 3px grey;
+    font-size: 4rem;
+    font-style: normal;
+    padding: 0;
+}
+
+/* About Content Styles*/
+.about{
+    border-bottom: 2px solid #d7d7d7;
+ }
+ .about-txt{
+    width: 45rem;
+ }
+ .about-txt p{
+    font-size: 1.2rem;
+ }
+
+ /*Products Content Styles*/
+.products p {
+    font-weight: bold;
+}
+.category{
+    text-transform: uppercase;
+}
+.price{
+    font-size: 1.3rem; 
+}
+.products li{
+    margin-top: 2rem;
+}
+
+ /* Signup Content Styles*/
+ .signup{
+    background:
+        linear-gradient(0deg, rgba(0,0,0,.1), rgba(0,0,0,.2)),
+        url(assets/images/wave-bkgd.jpg) no-repeat center 100%;
+    color: white;
+    margin-bottom: .5rem;
+ }
+ .signup-txt{
+    width: 45rem;
+ }
+.-txt h1{
+    text-shadow: 1px 1px 3px #969696;
+}
+.signup-txt p{
+    font-size: 1.2rem;
+    padding-bottom: 2rem;
+    text-shadow: 1px 1px 3px #969696;
+}
+
+/* Form Styles */
+.form{
+    position: relative;
+    display: inline-block;
+    width: 25.000rem;
+    height: 2.857rem;
+    padding: 0.514rem 1.5rem;
+}
+input[type="email"] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: none;
+    width: 100%;
+    height: 100%;
+    border-radius: 1.429rem;
+    padding: .514rem 1.5rem;
+}
+.sub-btn:focus,
+input[type="email"]:focus{
+    outline: none;
+}
+input[type="email"]:focus{
+    box-shadow: 1px 1px 3px grey;
+}
+input[placeholder="Your Email"],
+.sub-btn{
+    font-family: Raleway;
+    font-size: 1rem;
+}
+.sub-btn{
+    position: absolute;
+    background-color: #e2574c;
+    color: white;
+    width: 25%;
+    height: 2.143rem;
+    right: 5px;
+    top: 5px;
+    border-radius: 1.071rem;
+    border: none;
+    font-weight: bold;
+}
+.sub-btn:hover{
+    background-color: #b64036;
+}
+
+
+/*Footer Content Styles*/
+.footer{
+    background-color: #242424;
+    color: white;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+.ftr-txt p{
+    font-family: Playfair Display, serif;
+    font-size:1.2rem;
+    display: block;
+    line-height: 1.5rem;
+}
+.cpywrt,
+.contact{
+    height: 100%;
+    margin-bottom: 2rem;
+}
+.contact a{
+    text-decoration: underline;
+}
+.address{
+    color: #969696;
+}
+
+/* Footer Social Styles */
+.rgt-ftr{
+    margin-top: 2rem;
+}
+.scl-name{
+    display: none; /* Hides the social names on mobile*/
+}
+.ftr-txt li{
+    font-size: 1.5rem;
+    display: inline-block;
+    color: white;
+}
+.ftr-txt li:hover{
+    color: #b64036;
+}
+
+
+/************************* MEDIA QUERIES ****************************/
+
+@media all and (min-width: 600px){
+html{
+	font-size: 16px;
+}
+/* Header STyles */
+.hdr{
+    align-items: center;
+}
+.logo{
+    width: 160px;
+    height: auto;
+}
+.nav{
+    /* FLEX Item STYLES*/
+    flex-basis: 50%;
+    /*Regular Item Styles*/
+    border-top: none;
+    margin-top: 0;
+}
+.cart-btn{
+    cursor: pointer;
+    width: 60px;
+    order:3;
+}
+
+/* Banner */
+.banner {
+    padding: 10rem;
+}
+/* Products */
+.products{
+    height: 100%;
+}
+.products li{
+    float: left;
+    display: inline-block;
+    width: 50%;
+}
+
+/* FOOTER styles*/    
+.lft-ftr{
+    float: left;
+}
+.rgt-ftr{
+    float: right;
+    text-align: left;
+    margin-top: 0;
+}
+.scl-name{
+    display: inline-block; /* To get the social name to show again at larger screens */
+}
+.ftr-txt li{
+    display: block; /* puts the icons and names on the same line :) */
+    color: white;
+    margin-bottom: .7rem;
+    font-size: 1rem;
+}
+
+}
+@media all and (min-width: 1024px){
+.container{
+    max-width: 1240px;
+}
+/* Banner */
+.banner {
+    padding: 12rem;
+}
+/* Product Styles */
+.products li{
+    width: 25%;
+}
+
+}
