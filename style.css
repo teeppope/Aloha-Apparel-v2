@@ -197,13 +197,15 @@ i {
 .hdr-nav{  
     /* FLEX CONTAINER styles: used to style hdr-nav-items */
     display: flex;
-    flex-flow: row wrap;
+    flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    /*Flex Item Styles*/
+/*    width: 350px;
+    margin: 0 auto; */
 }
 .hdr-nav-item{
     font-size: 1rem;
-    /*Flex Item Styles*/
 }
 .hdr-nav-item a{
     text-transform: uppercase;
@@ -399,6 +401,7 @@ html{
     border-top: none;
     margin-top: 0;
 }
+
 .cart-btn{
     cursor: pointer;
     width: 60px;
