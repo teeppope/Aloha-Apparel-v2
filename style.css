@@ -109,7 +109,7 @@ header{
 }
 section,
 footer{
-    padding: 6rem 0; /* This padding is used to provide consistent vertical alignment in sections & footer*/
+ /*   padding: 6rem 0; /* This padding is used to provide consistent vertical alignment in sections & footer*/
     text-align: center;
 }
 h1, h2, h3{
@@ -228,22 +228,26 @@ i {
 		linear-gradient(0deg, rgba(0,0,0,.3), rgba(0,0,0,.4)),
 		url(assets/images/banner-girl.png) no-repeat center 3.286rem,
 		url(assets/images/flower-bkgd.jpg) repeat-x center top; 
-    background-size: cover, 250px 615px, contain;
+    background-size: cover, 250px 615px, cover;
 	text-align: center;
 	color: #fff;
-    padding: 10rem 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
 }
+
 .banner p {
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 125%;
     text-shadow: 1px 1px 3px grey;
     padding-bottom: 1.5rem;
 }
 .banner h1 {
     text-shadow: 1px 1px 3px grey;
-    font-size: 4rem;
+    font-size: 250% ;
     font-style: normal;
-    padding: 0;
+    padding-bottom: 0;
 }
 
 /* About Content Styles*/
@@ -409,9 +413,9 @@ html{
 }
 
 /* Banner */
-.banner {
+/*.banner {
     padding: 10rem;
-}
+}*/
 /* Products */
 .products{
     height: 100%;
@@ -447,7 +451,7 @@ html{
     max-width: 1240px;
 }
 /* Banner */
-.banner {
+/*.banner {
     padding: 12rem;
 }
 /* Product Styles */
