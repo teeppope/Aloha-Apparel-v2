@@ -261,6 +261,65 @@ i {
     font-size: 1.2rem;
  }
 
+/* SHOPPP Content Styles*/
+.shop{
+    display: flex;
+    flex-flow: row wrap;
+}
+.ctgry-name.mens{
+    background:
+        linear-gradient(0deg, rgba(0,0,0,.3), rgba(0,0,0,.4)),
+        url(assets/images/mens-category.jpg) center no-repeat;
+    background-size:contain;
+    height: 200px;
+    flex-basis: 100%;   
+}
+.ctgry-name.trends{
+    background:
+        linear-gradient(0deg, rgba(0,0,0,.3), rgba(0,0,0,.4)),
+        url(assets/images/trends-category.jpg) center no-repeat;
+    background-size:contain;
+    height: 200px;
+    flex-basis: 50%;   
+}
+.ctgry-name.glasses{
+    background:
+        linear-gradient(0deg, rgba(0,0,0,.3), rgba(0,0,0,.4)),
+        url(assets/images/glasses-category.jpg) center no-repeat;
+    background-size:contain;
+    height: 200px;
+    flex-basis: 50%;   
+}
+.ctgry-name.sale{
+    background:
+        linear-gradient(0deg, rgba(0,0,0,.3), rgba(0,0,0,.4)),
+        url(assets/images/sale-category.jpg) center no-repeat;
+    background-size:contain;
+    height: 200px;
+    flex-basis: 50%;   
+}
+.ctgry-name.bags{
+    background:
+        linear-gradient(0deg, rgba(0,0,0,.3), rgba(0,0,0,.4)),
+        url(assets/images/bags-category.jpg) center no-repeat;
+    background-size:contain;
+    height: 200px;
+    flex-basis: 50%;   
+}
+.ctgry-name.womens{
+    background:
+        linear-gradient(0deg, rgba(0,0,0,.3), rgba(0,0,0,.4)),
+        url(assets/images/womens-category.jpg) center no-repeat;
+    background-size:contain;
+    height: 200px;
+    flex-basis: 100%;   
+}
+
+
+
+
+
+
  /*Products Content Styles*/
 .products p {
     font-weight: bold;
