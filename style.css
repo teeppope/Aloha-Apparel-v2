@@ -204,22 +204,22 @@ i {
     /*Flex Item Styles*/
 /*    width: 350px;
     margin: 0 auto; */
-}
+ }
 .hdr-nav-item{
     font-size: 1rem;
-}
+ }
 .hdr-nav-item a{
     text-transform: uppercase;
     font-weight: bold;
     color: #e2574c;
-}
+ }
 .hdr-nav-item a:hover{
     color: #b64036;
-}
+ }
 .cart-btn{
     cursor: pointer;
     width: 60px;
-}
+ }
 
 
 /*Banner Content Styles*/
@@ -236,29 +236,28 @@ i {
     justify-content: center;
     align-items: center;
     height: 550px;
-}
-
+ }
 .banner p {
     font-weight: bold;
     font-size: 125%;
     text-shadow: 1px 1px 3px grey;
     padding-bottom: 1.5rem;
-}
+ }
 .banner h1 {
     text-shadow: 1px 1px 3px grey;
     font-size: 250% ;
     font-style: normal;
     padding-bottom: 0;
-}
+ }
 
 /* About Content Styles*/
 .about{
 
  }
- .about-txt{
+.about-txt{
     width: 45rem;
  }
- .about-txt p{
+.about-txt p{
     font-size: 1.2rem;
  }
 
@@ -269,7 +268,7 @@ i {
     position: relative;
     width: 100%;
     padding: 0;
-}
+ }
 
 .ctgry-name{
     display: flex;
@@ -279,7 +278,7 @@ i {
     font-size: 200%;
     font-style: bold;
     border: 3px solid white;
-}
+ }
 
 .ctgry-name.mens{
     background:
@@ -288,46 +287,42 @@ i {
     background-size:cover; 
     flex: 2 0 100%;
 
-}
+ }
 .ctgry-name.trends{
     background:
         linear-gradient(0deg, rgba(0,0,0,.3), rgba(0,0,0,.4)),
         url(assets/images/trends-category.jpg) center center no-repeat;
     background-size:cover;
     flex: 1 0 50%;
-}
+ }
 .ctgry-name.glasses{
     background:
         linear-gradient(0deg, rgba(0,0,0,.3), rgba(0,0,0,.4)),
         url(assets/images/glasses-category.jpg) center center no-repeat;
     background-size:cover;
     flex: 1 0 50%;     
-}
+ }
 .ctgry-name.sale{
     background:
         linear-gradient(0deg, rgba(0,0,0,.3), rgba(0,0,0,.4)),
         url(assets/images/sale-category.jpg) center center no-repeat;
     background-size:cover;
     flex: 1 0 50%;   
-}
+ }
 .ctgry-name.bags{
     background:
         linear-gradient(0deg, rgba(0,0,0,.3), rgba(0,0,0,.4)),
         url(assets/images/bags-category.jpg) center center no-repeat;
     background-size:cover;
     flex: 1 0 50%;    
-}
+ }
 .ctgry-name.womens{
     background:
         linear-gradient(0deg, rgba(0,0,0,.3), rgba(0,0,0,.4)),
         url(assets/images/womens-category.jpg) center center no-repeat;
     background-size:cover;
     flex: 2 0 100%; 
-}
-
-
-
-
+ }
 
 
  /*Products Content Styles*/
@@ -335,26 +330,28 @@ i {
     display: flex;
     flex-flow: column;
     align-items: center;
-}
-.products-list{
+ }
 
-}
-.products li{
-    display: flex;
-    flex-flow: column;
-    justify-content: space-between;
-    margin-top: 2rem;
-}
+/*.products {
+   margin-top: 2rem;
+ }*/
 .products p {
     font-weight: bold;
-}
+ }
 .category{
     text-transform: uppercase;
-}
+ }
 .price{
     font-size: 1.3rem; 
+    padding-bottom: 2rem;
+ }
+.products-list {
+    width: 80vw;
 }
 
+.products-list * {
+    outline: none;
+}
 
  /* Signup Content Styles*/
  .signup{
@@ -369,7 +366,7 @@ i {
  }
 .-txt h1{
     text-shadow: 1px 1px 3px #969696;
-}
+ }
 .signup-txt p{
     font-size: 1.2rem;
     padding-bottom: 2rem;
@@ -465,6 +462,7 @@ input[placeholder="Your Email"],
 }
 
 
+
 /************************* MEDIA QUERIES ****************************/
 
 @media all and (min-width: 600px){
@@ -530,6 +528,10 @@ html{
 }
 .products li{
     display: inline-block;
+}
+.slick-prev:before, 
+.slick-next:before{
+    color: #e2574c !important;
 }
 
 /* FOOTER styles*/    
