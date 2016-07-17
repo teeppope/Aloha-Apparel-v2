@@ -151,7 +151,10 @@ li{
 i {
     min-width: 2.2rem;
 }
-
+button{
+    border: none;
+    outline: none;
+}
 
 
 /************************* LAYOUT ***********************/
@@ -227,14 +230,23 @@ i {
     color: #b64036;
  }
 .cart-btn{
+    position: relative;
     cursor: pointer;
     width: 60px;
  }
  .cart-counter{
-    width: 15px;
-    height: 15px;
+    position: absolute;
+    right: -5px;
+    top: -5px;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
     background-color: #e2574c;
-
+    color: white;
+    text-align: center;
+    padding-top: .25rem;
+    font-size: .9rem;
+    display: none;
  }
 
 
@@ -368,6 +380,18 @@ i {
 .products-list * {
     outline: none;
 }
+.add-to-cart{
+    font-family: Raleway, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white; 
+    background-color: black;
+    border-radius: 25px;
+    width: 125px;
+    height: 35px;
+    margin-bottom: 20px;
+}
+
 
  /* Signup Content Styles*/
  .signup{
@@ -423,12 +447,11 @@ input[placeholder="Your Email"],
     position: absolute;
     background-color: #e2574c;
     color: white;
-    width: 25%;
+    width: 30%;
     height: 2.143rem;
     right: 5px;
     top: 5px;
     border-radius: 1.071rem;
-    border: none;
     font-weight: bold;
 }
 .sub-btn:hover{

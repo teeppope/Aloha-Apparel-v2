@@ -44,19 +44,16 @@ $(document).ready(function() {
 
 	//Add to cart button
 		var cartTotal = 0;
-		var cartBtn = $('.cart-btn');
+		var addToCart = $('.add-to-cart') 
+		var cartCounter = $('.cart-counter');
 
-		function add(a){
-			var addToCart = $('.add-to-cart').on('click', function(){
-			cartTotal++
-			$('.cart-btn').css({
-    			backgroundColor: '#e2574c',
-				color: 'white',
-			}).text(cartBtn++)
-	});
-	}
+	
+		addToCart.on('click', function(){
+				cartTotal++,
+				cartCounter.show().text(cartTotal)
+			});
 
-	add();
+
 	
 
 	//Subscribe elmail allerts
