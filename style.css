@@ -180,6 +180,7 @@ i {
 /*Header Content Styles*/
 .hdr{
     /*FLEX Container to .logo .cart-btn .nav*/
+    display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: space-between;
@@ -190,7 +191,7 @@ i {
     z-index: 1;
 }
 .hdr-pusher{
-    height: 86px;
+    height: 161px;
 }
 .logo{
     width: 160px;
@@ -479,6 +480,9 @@ html{
 	font-size: 16px;
 }
 /* Header STyles */
+.hdr-pusher{
+    height: 86px;
+}
 .hdr{
     align-items: center;
 }
