@@ -230,6 +230,12 @@ i {
     cursor: pointer;
     width: 60px;
  }
+ .cart-counter{
+    width: 15px;
+    height: 15px;
+    background-color: #e2574c;
+
+ }
 
 
 /*Banner Content Styles*/
