@@ -110,7 +110,6 @@ header{
 section,
 footer{
     padding: 6rem 0; /* This padding is used to provide consistent vertical alignment in sections & footer*/
-    text-align: center;
 }
 h1, h2, h3{
 	font-family: Playfair Display, serif;
@@ -166,7 +165,10 @@ i {
 
 .banner,
 .about,
-.signup{
+.products,
+.signup,
+.footer{
+    text-align: center;
     padding-left: 3%;
     padding-right: 3%;
 }
@@ -535,12 +537,16 @@ html{
 }
 
 /* FOOTER styles*/    
-.lft-ftr{
-    float: left;
-}
-.rgt-ftr{
-    float: right;
+.ftr-txt{
     text-align: left;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+.lft-ftr{
+    margin- right: 5px;
+}
+.rgt-ftr{;
     margin-top: 0;
 }
 .scl-name{
