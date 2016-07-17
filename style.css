@@ -165,7 +165,7 @@ i {
 }
 
 .banner,
-.styles,
+.about,
 .signup{
     padding-left: 3%;
     padding-right: 3%;
@@ -177,7 +177,7 @@ i {
 
 /*Header Content Styles*/
 .hdr{
-    /*FLEX Container to .logo .nav*/
+    /*FLEX Container to .logo .cart-btn .nav*/
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: space-between;
@@ -227,15 +227,15 @@ i {
 	width: 100%;
 	background:
 		linear-gradient(0deg, rgba(0,0,0,.3), rgba(0,0,0,.4)),
-		url(assets/images/banner-girl.png) no-repeat center 3.286rem,
+		url(assets/images/banner-girl.png) no-repeat center 4.286rem,
 		url(assets/images/flower-bkgd.jpg) repeat-x center top; 
-    background-size: cover, 250px 615px, cover;
+    background-size: cover, 150px auto, cover;
 	text-align: center;
 	color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 550px;
+    padding: 25% 0;
  }
 .banner p {
     font-weight: bold;
@@ -492,9 +492,9 @@ html{
 }
 
 /* Banner */
-/*.banner {
-    padding: 10rem;
-}*/
+.banner {
+    background-size: cover, 250px auto, cover;
+}
 
 /* Shop stylings */
 .ctgry-name.mens{
@@ -559,8 +559,8 @@ html{
     max-width: 1240px;
 }
 /* Banner */
-/*.banner {
-    padding: 12rem;
+.banner {
+    padding: 16rem;
 }
 /* Product Styles */
 .products li{
