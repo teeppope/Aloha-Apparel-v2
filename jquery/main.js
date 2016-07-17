@@ -43,6 +43,21 @@ $(document).ready(function() {
 	});
 
 	//Add to cart button
+		var cartTotal = 0;
+		var cartBtn = $('.cart-btn');
+
+		function add(a){
+			var addToCart = $('.add-to-cart').on('click', function(){
+			cartTotal++
+			$('.cart-btn').css({
+    			backgroundColor: '#e2574c',
+				color: 'white',
+			}).text(cartBtn++)
+	});
+	}
+
+	add();
+	
 
 	//Subscribe elmail allerts
 	function isEmail(email) {
