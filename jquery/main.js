@@ -1,6 +1,20 @@
 $(document).ready(function() {
 	console.log("hello, I'm your new .js file");
 	
+	//Smooth Scroll jQwerery
+	$('a[href^="#"]').on('click',function (e) {
+	    e.preventDefault();
+
+	    var target = this.hash;
+	    var $target = $(target);
+
+	    $('html, body').stop().animate({
+	        'scrollTop': $target.offset().top
+	    }, 900, 'swing', function () {
+	        window.location.hash = target;
+	    });
+	});
+	
 	//Slick slider jqwererey
 	$('.products-list').slick({
 	  dots: true,
@@ -25,11 +39,9 @@ $(document).ready(function() {
 	        arrows: false
 	      }
 	    },
-	    // You can unslick at a given breakpoint now by adding:
-	    // settings: "unslick"
-	    // instead of a settings object
 	  ]
 	});
 
+	//Add to cart button
 
 })
