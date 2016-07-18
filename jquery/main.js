@@ -1,4 +1,5 @@
 $(document).ready(function() {
+
 	//Smooth Scroll jQwerery
 	$('a[href^="#"]').on('click',function (e) {
 		e.preventDefault();
@@ -7,7 +8,7 @@ $(document).ready(function() {
 		var $target = $(target);
 
 		$('html, body').stop().animate({
-			'scrollTop': $target.offset().top
+			'scrollTop': $target.offset().top - 86 //only was able to get smooth scroll working for desktop/tablet :( 
 		}, 900, 'swing', function () {
 			window.location.hash = target;
 		});
@@ -61,7 +62,7 @@ $(document).ready(function() {
 	}
 
 	$('.sub-btn').on('click', function(event){
-		event.preventDefault();
+		// event.preventDefault(); <-- Leaving commented out so the default event refreshes the page.
 		console.log('Hi, Ive at least been clicked');
 		
 		var email = $('#email').val();

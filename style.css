@@ -101,14 +101,14 @@
 }
 html{
 	color: #2d2d2d;
-	font-family: Raleway, Helvetica, sans-serif; 
+	font-family: 'Raleway', Helvetica, sans-serif; 
 	font-size: 14px;
 }
 header{
 	padding: 0.657rem 1.5rem;
 }
 h1, h2, h3{
-	font-family: Playfair Display, serif;
+	font-family: 'Playfair Display', serif;
 	font-size: 2.5rem;
     padding-bottom: 2rem;
 }
@@ -178,8 +178,7 @@ button{
     display: flex;
     flex-flow: wrap;
     justify-content: space-between;
-    align-items: space-between;
-    align-content: center;
+    align-items: center;
     position: fixed;
     width: 100%;
     background-color:rgba(255, 255, 255, .95);
@@ -236,7 +235,7 @@ button{
  }
 
 /*Banner Content Styles*/
-.banner {
+.banner{
 	width: 100%;
 	background:
 		linear-gradient(0deg, rgba(0,0,0,.3), rgba(0,0,0,.4)),
@@ -351,16 +350,18 @@ button{
 .products{
     display: flex;
     flex-flow: column;
+
     align-items: center;
  }
 .products-list {
-    width: 80vw;
+    width: 90vw;
 }
 
 .products-list * {
     outline: none;
 }
-.products p {
+.category,
+.price{
     font-weight: bold;
     color:  #969696;
  }
@@ -368,12 +369,12 @@ button{
     text-transform: uppercase;
  }
 .price{
-    font-size: 1.3rem; 
-    padding-bottom: 2rem;
+    font-size: 120%; 
+    padding-bottom: 2.5rem;
  }
 
 .add-to-cart{
-    font-family: Raleway, Helvetica, sans-serif;
+    font-family: 'Raleway', Helvetica, sans-serif;
     font-size: 1rem;
     font-weight: bold;
     color: white; 
@@ -381,7 +382,7 @@ button{
     border-radius: 25px;
     width: 125px;
     height: 35px;
-    margin-bottom: 20px;
+    margin-bottom: 2.5rem;
 }
 
 
@@ -396,7 +397,7 @@ button{
  .signup-txt{
     width: 45rem;
  }
-.-txt h1{
+.signup-txt h2{
     text-shadow: 1px 1px 3px #969696;
  }
 .signup-txt p{
@@ -405,11 +406,11 @@ button{
     text-shadow: 1px 1px 3px #969696;
 }
 
-/* Form Styles */
+/* Signup Form Styles */
 .form{
     position: relative;
     display: inline-block;
-    width: 25.000rem;
+    width: 25rem;
     height: 2.857rem;
     padding: 0.514rem 1.5rem;
 }
@@ -432,7 +433,7 @@ input[type="email"]:focus{
 }
 input[placeholder="Your Email"],
 .sub-btn{
-    font-family: Raleway;
+    font-family: 'Raleway', sans-serif;
     font-size: 1rem;
 }
 .sub-btn{
@@ -442,7 +443,7 @@ input[placeholder="Your Email"],
     width: 30%;
     height: 2.143rem;
     right: 5px;
-    top: 5px;
+    top: 6px;
     border-radius: 1.071rem;
     font-weight: bold;
 }
@@ -459,17 +460,15 @@ input[placeholder="Your Email"],
 .ftr-txt{
     display: flex;
     flex-flow: column;
-    align-items: center
+    align-items: center;
 }
 .ftr-txt p{
-    font-family: Playfair Display, serif;
+    font-family: 'Playfair Display', serif;
     font-size:1.2rem;
-    display: block;
     line-height: 1.5rem;
 }
 .cpywrt,
 .contact{
-    height: 100%;
     margin-bottom: 2rem;
 }
 .contact a{
@@ -481,7 +480,7 @@ input[placeholder="Your Email"],
 
 /* Footer Social Styles */
 .rgt-ftr{
-    margin-top: 2rem;
+    margin-top: 3rem;
 }
 .scl-name{
     display: none; /* Hides the social names on mobile*/
@@ -530,6 +529,9 @@ html{
 
 /* Banner */
 .banner {
+    padding: 13rem;
+}
+.banner {
     background-size: cover, 250px auto, cover;
 }
 
@@ -550,7 +552,7 @@ html{
 }
 .slick-prev:before, 
 .slick-next:before{
-    color: #e2574c !important;
+    color: #e2574c !important; /* <-- Needed to use important to force the side scroll buttons to appear in the orange color */
 }
 
 /* FOOTER styles*/    
@@ -561,7 +563,7 @@ html{
     justify-content: space-between;
 }
 .lft-ftr{
-    margin- right: 5px;
+    margin-right: 5px;
 }
 .rgt-ftr{;
     margin-top: 0;
@@ -583,7 +585,7 @@ html{
 }
 /* Banner */
 .banner {
-    padding: 16rem;
+    padding: 14rem;
 }
 /* Product Styles */
 .products li{
