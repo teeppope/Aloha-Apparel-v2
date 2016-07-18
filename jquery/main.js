@@ -1,6 +1,4 @@
 $(document).ready(function() {
-	console.log("hello, I'm your new .js file");
-	
 	//Smooth Scroll jQwerery
 	$('a[href^="#"]').on('click',function (e) {
 		e.preventDefault();
