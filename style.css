@@ -284,17 +284,16 @@ button{
     border: 2px solid white;
  }
  .ctgry-big{
+    height: 50vw;
+    width: 100%;
     flex: 2 0 100%;
  }
  .ctgry-small{
-    flex: 1 0 50%;
+    height: 50vw;
+    width: 45%;
+    flex: 1 0 50%; 
  }
- .ctgry-small:nth-child(odd){
-
- }
- .ctgry-small:nth-child(even){
-
- }
+ 
  .ctgry-name{
     font-size: 200%;
     font-weight: bold;
@@ -309,6 +308,7 @@ button{
         linear-gradient(0deg, rgba(0,0,0,.3), rgba(0,0,0,.4)),
         url(assets/images/mens-category.jpg) center center no-repeat;
     background-size:cover, cover; 
+
  }
 
 .trends{
@@ -316,6 +316,7 @@ button{
         linear-gradient(0deg, rgba(0,0,0,.3), rgba(0,0,0,.4)),
         url(assets/images/trends-category.jpg) center center no-repeat;
     background-size:cover, cover;
+    
  }
 .glasses{
     background:
@@ -327,13 +328,13 @@ button{
     background:
         linear-gradient(0deg, rgba(0,0,0,.3), rgba(0,0,0,.4)),
         url(assets/images/sale-category.jpg) center center no-repeat;
-    background-size:cover, cover;   
+    background-size:cover, cover;
  }
  .bags{
     background:
         linear-gradient(0deg, rgba(0,0,0,.3), rgba(0,0,0,.4)),
         url(assets/images/bags-category.jpg) center center no-repeat;
-    background-size:cover, cover;   
+    background-size:cover, cover; 
  }
 .womens{
     background:
@@ -538,9 +539,13 @@ html{
 /* Shop stylings */
  .ctgry-big{
     flex: 2 0 50%;
+    width: 50vw;
+    height: 25vw;
  }
  .ctgry-small{
     flex: 1 0 25%;
+    width: 25vw;
+    height: 25vw;
  }
 
 /* Products */
