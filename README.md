@@ -8,7 +8,9 @@ Some Lessons I learned:
 
 - jQuery is tough to wrap your head around, but it'll come, and I look forward improving in this area.
 - Sometimes your functions don't need to be as complicated as you might think. While writing the add to cart function of the homepage, I kept thinking I was missing a step to the function I had written, but after taking a break, and coming back to it, I realized I was trying to add TOO much to it, so I got rid of parts not needed and then it worked!
+- Commiting often after solving a problem feels great!
 
 Moving forward:
+- Unfortunately, I ran out of time to test my site in all browsers, and I hope to make this be one of the first things I work on when we are able to fix up our projects for our portfolio's.
 - I would really like to create small programs to practice my javascript skillz.
 - I look forward to adding behaviours to my future projects!
