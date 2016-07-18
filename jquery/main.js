@@ -63,8 +63,6 @@ $(document).ready(function() {
 
 	$('.sub-btn').on('click', function(event){
 		// event.preventDefault(); <-- Leaving commented out so the default event refreshes the page.
-		console.log('Hi, Ive at least been clicked');
-		
 		var email = $('#email').val();
 
 		if (isEmail(email)) {
