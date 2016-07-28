@@ -13,6 +13,13 @@ $(document).ready(function() {
 			window.location.hash = target;
 		});
 	});
+	
+	// Fix "Skip Link" Focus in Webkit
+	$(function() {
+	   $("a[href^='#']").not("a[href='#']").click(function() {
+	      $("#"+$(this).attr("href").slice(1)+"").focus();
+	   });
+	});
 
 	//Slick slider jqwererey
 	$('.products-list').slick({
