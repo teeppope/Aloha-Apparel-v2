@@ -1,4 +1,5 @@
 /************************* LAYOUT ***********************/
+
 .container{
     margin: 0 auto;
     max-width: 100%;
@@ -17,13 +18,13 @@
     padding-right: 3%;
 }
 
-/*Banner Layout Styles*/
+/* Banner Layout Styles */
 .banner{
     width: 100%;
     background:
-          $dark-overlay,
-          url(../assets/images/banner-girl.png) no-repeat center 4.286rem,
-          url(../assets/images/flower-bkgd.jpg) repeat-x center top; 
+    $dark-overlay,
+    url(../assets/images/banner-girl.png) no-repeat center 4.286rem,
+    url(../assets/images/flower-bkgd.jpg) repeat-x center top; 
     background-size: cover, 150px auto, cover;
     text-align: center;
     color: #fff;
@@ -33,11 +34,11 @@
         background-size: cover, 250px auto, cover;
     }
     @include desktop {
-         padding: 14rem;
-    }
+       padding: 14rem;
+   }
 }
 
-/* About Layout Styles*/
+/* About Layout Styles */
 .about{
     width: 45rem;
 }

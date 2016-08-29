@@ -1,4 +1,5 @@
 /*Footer Content Styles*/
+
 .footer{
     background-color: $color__dark-grey;
     color: white;
@@ -10,7 +11,7 @@
     li{
         font-size: 1.5rem;
         display: inline-block;
-        color: white;
+        color: $white;
         &:hover{
             color: $color__brand-dark-red;
         }
@@ -22,7 +23,7 @@
         }
     }
     @include tablet {
-         text-align: left;
+        text-align: left;
         display: flex;
         flex-flow: row;
         justify-content: space-between;
@@ -54,8 +55,8 @@
     }
 }
 .scl-name{
-    display: none; /* Hides the social names on mobile*/
+    display: none;
     @include tablet {
-        display: inline-block; /* To get the social name to show again at larger screens */
+        display: inline-block;
     }
 }

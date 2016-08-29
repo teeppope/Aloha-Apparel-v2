@@ -1,8 +1,10 @@
+/************************* TYPOGRAPHY ***********************/
+
 html{
 	color: #2d2d2d;
 	font-family: $main-fontstack; 
 	font-size: 14px;
-    @include tablet {
+    @include desktop {
         font-size: 16px;
     }
 }
@@ -45,6 +47,7 @@ p{
         padding-bottom: 1.5rem;
     }
 }
+
 .about p{
     font-size: $font-sizeregular;
 }
@@ -56,6 +59,19 @@ p{
     font-size: $font-sizeregular;
     font-weight: bold;
     color: white;
+}
+// Signup Typography
+
+.signup-txt {
+    width: 45rem;
+    h2{
+        text-shadow: $text-shadow;
+    }
+    p{
+        font-size: 1.2rem;
+        padding-bottom: 2rem;
+        text-shadow: $text-shadow;
+    }
 }
 
 // Footer Typography

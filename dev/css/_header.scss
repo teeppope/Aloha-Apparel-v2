@@ -3,7 +3,6 @@ header{
     padding: 0.657rem 1.5rem;
 }
 .hdr{
-    /*FLEX Container to .logo .cart-btn .nav*/
     display: flex;
     flex-flow: wrap;
     justify-content: space-between;
@@ -27,17 +26,17 @@ nav{
     flex-basis: 100%;
     margin-top: 1rem;
     padding: 1rem 0;
-    border-top: 2px solid $color__light-grey;
+    border-top: 1px solid $color__light-grey;
     @include tablet {
         flex-basis: 50%;
         border-top: none;
         margin-top: 0;
+        max-width: 400px;
     }
 }
 .hdr-nav{  
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-between;
 }
 .hdr-nav-item {
     a{
