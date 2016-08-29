@@ -1,0 +1,17 @@
+/* ALOHA PROJECT MIXINS*/
+
+/* Media Query Mixins */
+$desktop-width: 1024px;
+$tablet-width: 600px;
+
+@mixin desktop{
+	@media (min-width: $desktop-width){
+		@content;
+	}
+}
+@mixin tablet{
+	@media (min-width: $tablet-width){
+		@content;
+	}
+}
+

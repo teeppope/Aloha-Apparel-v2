@@ -1,0 +1,80 @@
+/* SHOPPP Content Styles*/
+.shop{
+    display: flex;
+    flex-flow: row wrap;
+}
+.ctgry-big,
+.ctgry-small{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    border: 2px solid $white;
+}
+.ctgry-big{
+    height: 50vw;
+    width: 100%;
+    flex: 2 0 100%;
+    @include tablet {
+        flex: 2 0 50%;
+        width: 50vw;
+        height: 25vw;
+    }
+}
+.ctgry-small{
+    height: 50vw;
+    width: 45%;
+    flex: 1 0 50%; 
+    @include tablet {
+        flex: 1 0 25%;
+        width: 25vw;
+        height: 25vw;
+    }
+}
+.ctgry-name{
+    font-size: 200%;
+    font-weight: bold;
+    text-shadow: $text-shadow;
+    text-transform: uppercase;
+}
+.ctgry-name a:hover{
+    color: rgba(255, 255, 255, .75);
+}
+.mens{
+    background:
+        $dark-overlay,
+        url(../assets/images/mens-category.jpg) center center no-repeat;
+    background-size: cover; 
+
+}
+.trends{
+    background:
+        $dark-overlay,
+        url(../assets/images/trends-category.jpg) center center no-repeat;
+    background-size: cover;
+    
+}
+.glasses{
+    background:
+        $dark-overlay,
+        url(../assets/images/glasses-category.jpg) center center no-repeat;
+    background-size: cover;    
+}
+.sale{
+    background:
+        $dark-overlay,
+        url(../assets/images/sale-category.jpg) center center no-repeat;
+    background-size: cover;
+}
+.bags{
+    background:
+        $dark-overlay,
+        url(../assets/images/bags-category.jpg) center center no-repeat;
+    background-size: cover; 
+}
+.womens{
+    background:
+        $dark-overlay,
+        url(../assets/images/womens-category.jpg) center center no-repeat;
+    background-size: cover;
+}

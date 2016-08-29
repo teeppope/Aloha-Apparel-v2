@@ -1,0 +1,73 @@
+/* Header Styles */
+header{
+    padding: 0.657rem 1.5rem;
+}
+.hdr{
+    /*FLEX Container to .logo .cart-btn .nav*/
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    background-color:rgba($white, .95);
+    box-shadow: 1px 0 5px rgba(0, 0, 0, .3);
+    z-index: 1;
+}
+.hdr-pusher{
+    height: 140px;
+    @include tablet {
+        height: 86px;
+    }
+}
+.logo{
+    width: 160px;
+    height: auto;
+}
+nav{
+    flex-basis: 100%;
+    margin-top: 1rem;
+    padding: 1rem 0;
+    border-top: 2px solid $color__light-grey;
+    @include tablet {
+        flex-basis: 50%;
+        border-top: none;
+        margin-top: 0;
+    }
+}
+.hdr-nav{  
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.hdr-nav-item {
+    a{
+        color: $color__brand-red;
+        font-weight: bold;
+        text-transform: uppercase;
+        &:hover{
+            color: $color__brand-dark-red;
+        }
+    }
+}
+.cart-btn{
+    position: relative;
+    cursor: pointer;
+    width: 60px;
+    @include tablet {
+        order:3;
+    }
+}
+.cart-counter{
+    position: absolute;
+    right: -5px;
+    top: -5px;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    background-color: $color__brand-red;
+    color: $white;
+    text-align: center;
+    padding-top: .25rem;
+    font-size: .9rem;
+    display: none;
+}

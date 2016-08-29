@@ -1,0 +1,22 @@
+/* Variables for Aloha */
+
+//Colours
+$white: white;
+$color__brand-red: #e2574c ;
+$color__brand-dark-red: #b64036;
+$color__grey: #525252;
+$color__light-grey: #d7d7d7;
+$color__dark-grey: #242424;
+
+$dark-overlay: linear-gradient(to top, rgba(0,0,0,.3), rgba(0,0,0,.4));
+$text-shadow: 1px 1px 3px $color__grey;
+
+// Typography
+$main-fontstack: 'Raleway', Helvetica, sans-serif;
+$accent-fontstack: 'Playfair Display', serif;
+
+$font-sizelarge: 2.5rem;
+$font-sizemedium: 1.5rem;
+$font-sizeregular: 1rem;
+
+$base-lineheight: 1.5;

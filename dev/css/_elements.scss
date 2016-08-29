@@ -1,0 +1,25 @@
+/********************** ELEMENTS *********************/
+* {
+	box-sizing: border-box;
+}
+img {
+    width: 100%; 
+    height: auto;
+}
+a{
+    color: $white;
+    text-decoration: none;
+    &:hover{
+        color: $color__brand-red;
+    }
+}
+li{
+	list-style: none;
+}
+i {
+    min-width: 2.2rem;
+}
+button {
+    border: none;
+    outline: none;
+}

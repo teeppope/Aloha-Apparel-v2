@@ -1,0 +1,46 @@
+/* Signup Form Styles */
+.form{
+    position: relative;
+    display: inline-block;
+    width: 25rem;
+    height: 2.857rem;
+    padding: 0.514rem 1.5rem;
+}
+input[type="email"] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: none;
+    width: 100%;
+    height: 100%;
+    border-radius: 1.429rem;
+    padding: .514rem 1.5rem;
+}
+.sub-btn,
+input[type="email"] {
+    &:focus {
+        outline: none;
+    }
+}
+input[type="email"]:focus {
+    box-shadow: 1px 1px 3px 2px $color__grey;
+}
+input[placeholder="Your Email"],
+.sub-btn{
+    font-family: $main-fontstack;
+    font-size: $font-sizeregular;
+}
+.sub-btn{
+    position: absolute;
+    background-color: $color__brand-red;
+    color: $white;
+    width: 30%;
+    height: 2.143rem;
+    right: 5px;
+    top: 6px;
+    border-radius: 1.071rem;
+
+    &:hover{
+        background-color: $color__brand-dark-red;
+    }
+}

@@ -1,0 +1,69 @@
+html{
+	color: #2d2d2d;
+	font-family: $main-fontstack; 
+	font-size: 14px;
+    @include tablet {
+        font-size: 16px;
+    }
+}
+h1, h2, h3{
+	font-family: $accent-fontstack;
+    padding-bottom: 2rem;
+}
+
+h2{
+	font-style: italic;
+    font-size: $font-sizelarge;
+    letter-spacing: 1px;
+}
+h3{
+    font-size: $font-sizemedium;
+    padding: $font-sizeregular;
+    color: #e2574c;
+    letter-spacing: 1px;
+}
+p{
+    font-size: $font-sizeregular;
+    line-height: $base-lineheight;
+    letter-spacing: 0.5px;
+}
+.heavy{
+    font-style: normal;
+    font-weight: bold;
+}
+//Typography in the banner section
+.banner {
+    h2 {
+        text-shadow: $text-shadow;
+        font-size: $font-sizelarge;
+        font-style: normal;
+        padding-bottom: 0;
+    }
+    p {
+        font-size: $font-sizemedium;
+        text-shadow: $text-shadow;
+        padding-bottom: 1.5rem;
+    }
+}
+.about p{
+    font-size: $font-sizeregular;
+}
+
+//Products Typography
+
+.add-to-cart{
+    font-family: $main-fontstack;
+    font-size: $font-sizeregular;
+    font-weight: bold;
+    color: white;
+}
+
+// Footer Typography
+
+.ftr-txt {
+    p {
+        font-family: $accent-fontstack;
+        font-size: $font-sizeregular * 1.2;
+        line-height: $base-lineheight;
+    }
+}

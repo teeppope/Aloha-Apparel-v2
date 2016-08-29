@@ -1,0 +1,61 @@
+/*Footer Content Styles*/
+.footer{
+    background-color: $color__dark-grey;
+    color: white;
+}
+.ftr-txt{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    li{
+        font-size: 1.5rem;
+        display: inline-block;
+        color: white;
+        &:hover{
+            color: $color__brand-dark-red;
+        }
+        @include tablet {
+            display: block; /* puts the icons and names on the same line :) */
+            color: $white;
+            margin-bottom: .7rem;
+            font-size: 1rem;
+        }
+    }
+    @include tablet {
+         text-align: left;
+        display: flex;
+        flex-flow: row;
+        justify-content: space-between;
+    }
+}
+.cpywrt,
+.contact{
+    margin-bottom: 2rem;
+}
+.contact {
+    a{
+        text-decoration: underline;
+    }
+}
+.address{
+    color: $color__light-grey;
+}
+
+/* Footer Social Styles */
+.rgt-ftr{
+    margin-top: 3rem;
+    @include tablet {
+        margin-top: 0;
+    }
+}
+.lft-ftr{
+    @include tablet {
+        margin-right: 5px;
+    }
+}
+.scl-name{
+    display: none; /* Hides the social names on mobile*/
+    @include tablet {
+        display: inline-block; /* To get the social name to show again at larger screens */
+    }
+}

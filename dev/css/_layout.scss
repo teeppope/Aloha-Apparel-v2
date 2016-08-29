@@ -1,0 +1,43 @@
+/************************* LAYOUT ***********************/
+.container{
+    margin: 0 auto;
+    max-width: 100%;
+    @include desktop {
+        max-width: 1240px;
+    }
+}
+.banner,
+.about,
+.products,
+.signup,
+.footer{
+    text-align: center;
+    padding: 6rem 0; /* This padding is used to provide consistent vertical alignment in sections & footer*/
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+/*Banner Layout Styles*/
+.banner{
+    width: 100%;
+    background:
+          $dark-overlay,
+          url(../assets/images/banner-girl.png) no-repeat center 4.286rem,
+          url(../assets/images/flower-bkgd.jpg) repeat-x center top; 
+    background-size: cover, 150px auto, cover;
+    text-align: center;
+    color: #fff;
+    padding: 25% 0;
+    @include tablet {
+        padding: 13rem;
+        background-size: cover, 250px auto, cover;
+    }
+    @include desktop {
+         padding: 14rem;
+    }
+}
+
+/* About Layout Styles*/
+.about{
+    width: 45rem;
+}
