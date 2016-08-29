@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(function() {
 
 	//Smooth Scroll jQwerery
 	$('a[href^="#"]').on('click',function (e) {
@@ -16,9 +16,9 @@ $(document).ready(function() {
 	
 	// Fix "Skip Link" Focus in Webkit
 	$(function() {
-	   $("a[href^='#']").not("a[href='#']").click(function() {
-	      $("#"+$(this).attr("href").slice(1)+"").focus();
-	   });
+		$("a[href^='#']").not("a[href='#']").click(function() {
+			$("#"+$(this).attr("href").slice(1)+"").focus();
+		});
 	});
 
 	//Slick slider jqwererey
@@ -50,19 +50,16 @@ $(document).ready(function() {
 		]
 	});
 
-	//Add to cart button
-		var cartTotal = 0;
-		var addToCart = $('.add-to-cart') 
-		var cartCounter = $('.cart-counter');
+	//Add to Cart Item Counter
+	var cartTotal = 0;
+	var addToCart = $('.add-to-cart') 
+	var cartCounter = $('.cart-counter');
 
-	
-		addToCart.on('click', function(){
-				cartTotal++,
-				cartCounter.show().text(cartTotal)
-			});
+	addToCart.on('click', function(){
+		cartTotal++,
+		cartCounter.show().text(cartTotal)
+	});
 
-
-	
 
 	//Subscribe elmail allerts
 	function isEmail(email) {
@@ -82,4 +79,4 @@ $(document).ready(function() {
 		}
 	})
 
-})
+});
