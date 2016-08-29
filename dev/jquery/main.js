@@ -67,16 +67,17 @@ $(function() {
 		return regex.test(email);
 	}
 
-	$('.sub-btn').on('click', function(event){
-		// event.preventDefault(); <-- Leaving commented out so the default event refreshes the page.
+	$('#subscribe').submit(function(event){
+		event.preventDefault();
 		var email = $('#email').val();
 
-		if (isEmail(email)) {
+		if(isEmail(email)){
 			alert('Thanks for subscribing!');
-		}else{
-			alert('Please enter a valid email address')
 			
+		} else{
+			alert('Please enter a valid email address');	
 		}
-	})
+		$('#email').val('');
+	});
 
 });
