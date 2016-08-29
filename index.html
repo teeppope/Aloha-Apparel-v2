@@ -4,8 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Aloha Apparel</title>
-	<link rel="stylesheet" type="text/css" href="./build/css/reset.css">
-	<link rel="stylesheet" type="text/css" href="./build/css/style.css">
+	<link rel="stylesheet" type="text/css" href="./build/css/style.min.css">
 	<script src="https://use.fontawesome.com/88d34e1058.js"></script>
 	<link rel="stylesheet" type="text/css" href="./build/jquery/library/slick/slick.css"/>
 	<link rel="stylesheet" type="text/css" href="./build/jquery/library/slick/slick-theme.css"/>
@@ -15,20 +14,20 @@
 	<!-- This is the header of the Website where the navigation, logo and cart button live-->
 	<header class="hdr">
 		<div class="logo">
-			<img src="assets/images/aloha-logo.svg" alt="Aloha Apparel Logo"/>
+			<img src="./build/assets/images/aloha-logo.svg" alt="Aloha Apparel Logo"/>
 		</div>
 		<div class="cart-btn">
 			<div class="cart-counter"></div>
-			<img src="assets/images/cart-icon.svg" alt="Link to your Shopping Cart"/>
+			<img src="./build/assets/images/cart-icon.svg" alt="Link to your Shopping Cart"/>
 		</div>
-		<div class="nav">
+		<nav>
 			<ul class="hdr-nav">
 				<li class="hdr-nav-item"><a href="#about">About</a></li>
 				<li class="hdr-nav-item"><a href="#shop">Shop</a></li>
 				<li class="hdr-nav-item"><a href="#products">Featured</a></li>
 				<li class="hdr-nav-item"><a href="#signup">Updates</a></li>
 			</ul>
-		</div>
+		</nav>
 
 	</header>
 	<div class="hdr-pusher"></div>
@@ -73,56 +72,56 @@
 		<div class="products-content">
 			<ul class="products-list">
 				<li>
-					<img src="assets/images/compressed/stretch-knit-dress.jpg" alt="Black/White Polkadot Dress" />
+					<img src="./build/assets/images/compressed/stretch-knit-dress.png" alt="Black/White Polkadot Dress" />
 					<p class="category">Dresses</p>
 					<h3>Stretch Knit Dress</h3>
 					<p class="price">$169.00</p>
 					<button type="submit" class="add-to-cart">Add to Cart </button>
 				</li>
 				<li>
-					<img src="assets/images/compressed/cotton-blue-shirt.jpg" alt="Blue Denim Shirt" />
+					<img src="./build/assets/images/compressed/cotton-blue-shirt.png" alt="Blue Denim Shirt" />
 					<p class="category">Shirt</p>
 					<h3>Cotton Blue Shirt</h3>
 					<p class="price">$89.00</p>
 					<button type="submit" class="add-to-cart">Add to Cart </button>
 				</li>
 				<li>
-					<img src="assets/images/compressed/checked-stretch-dress.jpg" alt="Red Checked Dress" />
+					<img src="./build/assets/images/compressed/checked-stretch-dress.png" alt="Red Checked Dress" />
 					<p class="category">Dresses</p>
 					<h3>Checked Stretch Dress</h3>
 					<p class="price">$129.00</p>
 					<button type="submit" class="add-to-cart">Add to Cart </button>
 				</li>
 				<li>
-					<img src="assets/images/compressed/blue-hipster-backpack.jpg" alt="Blue Backpack" />
+					<img src="./build/assets/images/compressed/blue-hipster-backpack.png" alt="Blue Backpack" />
 					<p class="category">Bags</p>
 					<h3>Blue Hipster Backpack</h3>
 					<p class="price">$69.00</p>
 					<button type="submit" class="add-to-cart">Add to Cart </button>
 				</li>
 				<li>
-					<img src="assets/images/compressed/demin-overall-shorts.jpg" alt="Denim Overall Shorts">
+					<img src="./build/assets/images/compressed/demin-overall-shorts.png" alt="Denim Overall Shorts">
 					<p class="category">Denim</p>
 					<h3>Denim Overall Shorts</h3>
 					<p class="price">$89.00</p>
 					<button type="submit" class="add-to-cart">Add to Cart </button>
 				</li>
 				<li>
-					<img src="assets/images/compressed/pink-dotted-dress.jpg" alt="Pink Dotted Dress">
+					<img src="./build/assets/images/compressed/pink-dotted-dress.png" alt="Pink Dotted Dress">
 					<p class="category">Dresses</p>
 					<h3>Pink Dotted Dress</h3>
 					<p class="price">$99.00</p>
 					<button type="submit" class="add-to-cart">Add to Cart </button>
 				</li>
 				<li>
-					<img src="assets/images/compressed/blue-silk-dress.jpg" alt="Blue Silk Dress">
+					<img src="./build/assets/images/compressed/blue-silk-dress.png" alt="Blue Silk Dress">
 					<p class="category">Dresses</p>
 					<h3>Blue Silk Dress</h3>
 					<p class="price">$119.00</p>
 					<button type="submit" class="add-to-cart">Add to Cart </button>
 				</li>
 				<li>
-					<img src="assets/images/compressed/cotton-yellow-tshirt.jpg" alt="Cotton Yellow Shirt">
+					<img src="./build/assets/images/compressed/cotton-yellow-tshirt.png" alt="Cotton Yellow Shirt">
 					<p class="category">Shirts</p>
 					<h3>Cotton Yellow Tshirt</h3>
 					<p class="price">$39.00</p>
@@ -210,12 +209,12 @@
 	<script   src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
 
 	<!-- This is slick slider jquwerry-->
-	<script type="text/javascript" src="./dev/jquery/library/slick/slick.min.js"></script>
+	<script type="text/javascript" src="./build/jquery/library/slick/slick.min.js"></script>
 
 	<!-- Tota11y -->
 	<script src="tota11y.js"></script>
 
 	<!-- Main JS -->
-	<script type="text/javascript" src="./dev/jquery/main.js"></script>
+	<script type="text/javascript" src="./build/jquery/main.min.js"></script>
 </body>
 </html>
