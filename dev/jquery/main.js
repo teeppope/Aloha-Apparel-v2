@@ -25,10 +25,12 @@ $(document).ready(function() {
 	$('.products-list').slick({
 		dots: true,
 		infinite: true,
-		speed: 300,
+		autoplay:true,
+		autoplaySpeed: 1500,
+		easing: 'linear',
 		slidesToShow: 4,
 		slidesToScroll: 1,
-		arrows: true,
+		arrows: false,
 		responsive: [
 		{
 			breakpoint: 1024,
