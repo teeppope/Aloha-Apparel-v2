@@ -1,6 +1,6 @@
 #Project 1 pt-b: Aloha Site with some pizazz
 
-Project 1 pt-b at RED was an extention of Project 1 pt-b. It brought to the table an introduction to jQuery, and the active web.
+Project 1 pt-b at RED was an extention built on top of [Project 1 pt-a](https://github.com/teeppope/Aloha-Apparel-v1). It brought to the table an introduction to jQuery, and the active web.
 
 ![Aloha Shop Home Page](homepage.png)
 
