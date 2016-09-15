@@ -9,7 +9,7 @@ Project 1 pt-b at RED was an extention built on top of [Project 1 pt-a](https://
 The Aloha site is a one page, mobile first "ecommerce" shop for an imaginary company called the Aloha Apparel Co.
 
 ###Technology Used
-This project was built on top of our first project, Project 1 pt-b, which was a static page. Below are the languages I used to code the website for project hand-in.
+This project was built on top of our first project, [Project 1 pt-a](https://github.com/teeppope/Aloha-Apparel-v1), which was a static page. Below are the languages I used to code the website for project hand-in.
 
 - HTML5
 - CSS3
